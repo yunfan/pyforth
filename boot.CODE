@@ -1,0 +1,5 @@
+: IMMEDIATE CODE CACHE[REG['LAST_NAME']][1] = True END-CODE
+: ; CODE FLAGS['COMPILING'] = False; CACHE[REG['LAST_NAME']][1] = True; REG['IP'] = RSTACK.pop() if len(RSTACK) else -1; END-CODE
+: \ CODE NEXTSTRING('\n') END-CODE
+: # \ ; IMMEDIATE
+\ now we have comment
